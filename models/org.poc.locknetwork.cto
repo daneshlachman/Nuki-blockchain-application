@@ -1,0 +1,25 @@
+namespace org.poc.locknetwork
+
+asset Lock identified by lockID {
+    o String lockID
+    o String descriptionLock
+    o String status
+    --> User[] authorizedUsers
+}
+participant User identified by userID {
+    o String userID
+    o String firstName
+    o String lastName
+}
+
+transaction LockActivity {
+    --> Lock lock
+    --> User performingUser
+}
+
+event LockStatusEvent
+    {
+    --> User performingUser
+    o Boolean userIsAuthorized
+    o String lockStatusAfterOperation
+    }
