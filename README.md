@@ -6,7 +6,7 @@ This project is developed for the course Blockchain architecture within the mino
 
 This project requires Hyperledger Composer V0.19. The prerequisites to get this project working can be installed from [here](https://hyperledger.github.io/composer/v0.19/installing/installing-prereqs). After this, the Hyperledger Components need to be installed, these can be installed from [here](https://hyperledger.github.io/composer/v0.19/installing/development-tools).
 
-After the installation of the prerequisites and Composer components, the project can be built with the following commands:
+After the installation of the prerequisites and Composer components, the project can be build with the following commands:
 
 (These commands assume that this project is cloned into the directory "fabric-dev-servers", which is generated when Hyperledger Composer was installed on your system.)
 
