@@ -26,3 +26,5 @@ The blockchain network should be running now. In order to communicate with the d
 - Add a user to the blockchain (a blockchain participant)
 - Add a new lock to the blockchain (a blockchain asset)
 - Perform a lock operations on a defined lock (a blockchain transaction)
+
+However, at this stage the composer-playground tool, if installed, can also be used to interact with the deployed blockchain.
